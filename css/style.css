@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{background-color: antiquewhite;}
+.contenedor-principal{
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+}
+
+.tarjeta_pizza{
+    width: 400px;
+    height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    margin: 30px 0 10px 0;
+    border-radius: 8px;
+}
+
+.tarjeta_pizza:hover{
+    box-shadow: 1px 6px 13px 2px rgba(0,0,0,0.53);
+    -webkit-box-shadow: 1px 6px 13px 2px rgba(0,0,0,0.53);
+    -moz-box-shadow: 1px 6px 13px 2px rgba(0,0,0,0.53);
+    background-color: rgb(245, 191, 125);
+    color: rgb(160, 78, 78);
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.tarjeta_pizza img{
+    width: 290px;
+    height: 200px;
+    padding: 8px;
+}
+
+.tarjeta_pizza ul{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+.nombre_pizza{
+    color: brown;
+    font-family: 'Kanit', sans-serif;
+    padding-top: 20px;
+}
+
+.precio_pizza, .boton input, .nombre_pizza{
+    color: brown;
+    font-family: 'Kanit', sans-serif;
+}
+
+.cont-busqueda{
+    height: 75px;
+    width: 440px;
+    background-color: rgb(129 13 13);
+}
+
+.cont-busqueda input{
+    height: 35px;
+}
+
+#form-busqueda{
+    height: 70px;
+    width: 355px;
+    display: flex;
+    justify-content:space-between;
+    padding: 7px;
+    margin: auto;
+}
+
+.nombre{
+    width: 255px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.label-nombre{
+    width: 60px;
+    text-align: center;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+}
+
+.label-nombre label{
+    width: 100%;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+}
+
+.boton input{
+    width: 70px;
+    background-color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.boton input:hover{
+    width: 70px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius: 0px;
+}
+
+.error{
+    margin-top: 25px;
+    background-color: rgb(154 38 38);
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    width: 400px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.83;
+}
